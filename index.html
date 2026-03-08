@@ -59,6 +59,36 @@
       letter-spacing: -0.5px;
     }
 
+    .hero-link {
+      display: inline-flex;
+      text-decoration: none;
+    }
+
+    .hero-app-title {
+      display: block;
+      margin-bottom: 4px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .hero-download-link {
+      display: inline-block;
+      width: fit-content;
+      margin: 2px auto 14px;
+      color: rgba(255,255,255,0.9);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    .hero-download-link:hover,
+    .hero-app-title:hover {
+      text-decoration: underline;
+    }
+
     .hero h1 {
       font-size: 28px;
       font-weight: 700;
@@ -198,14 +228,38 @@
 </head>
 <body>
   <header class="hero">
-    <img class="hero-icon" src="icon.png" alt="Konuşma Sınavı" />
+    <a
+      class="hero-link"
+      href="https://apps.apple.com/tr/app/konu%C5%9Fma-s%C4%B1nav%C4%B1/id6759739162?l=tr"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Konuşma Sınavı uygulamasını App Store'da aç"
+    >
+      <img class="hero-icon" src="icon.png" alt="Konuşma Sınavı" />
+    </a>
+    <a
+      class="hero-app-title"
+      href="https://apps.apple.com/tr/app/konu%C5%9Fma-s%C4%B1nav%C4%B1/id6759739162?l=tr"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Konuşma Sınavı
+    </a>
     <h1>Gizlilik Politikası</h1>
+    <a
+      class="hero-download-link"
+      href="https://apps.apple.com/tr/app/konu%C5%9Fma-s%C4%B1nav%C4%B1/id6759739162?l=tr"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      (uygulamayı indir)
+    </a>
     <p>
       Konuşma Sınavı uygulamasında veriler cihazınızda kalır. Bu metin, verilerin
       nasıl işlendiğini açık ve sade şekilde özetler.
     </p>
     <div class="hero-badges">
-      <span class="badge">Son güncelleme: Şubat 2026</span>
+      <span class="badge">Son güncelleme: Mart 2026</span>
       <span class="badge">Reklam / İzleme Yok</span>
       <span class="badge">Yerel Veri</span>
     </div>
