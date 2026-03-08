@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dalgali.github.io/konusmasinavi/sitemap.xml
